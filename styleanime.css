@@ -16,15 +16,18 @@ body {
     margin-bottom: 40px;
   }
   
-  .producto {
-    background: #b49898;
-    border: 1px solid #000000;
-    border-radius: 6px;
-    padding: 10px;
-    text-align: center;
-    width: 150px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-  }
+
+.producto {
+  background: #b49898;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  width: calc(20% - 20px);
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+  
   
   .producto img {
     width: 100%;
